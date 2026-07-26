@@ -1,9 +1,29 @@
 aid: devai
-name: Devai
-description: 'Devai is a company surfaced as a portfolio company of emergence-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: developer-tools. This profile is a lead awaiting
-  the enrichment pipeline.'
+name: DevAI
+description: >-
+  DevAI (DevAI Solutions, Inc.) is a Silicon Valley enterprise IT company, founded in 2024 by
+  Susie Wee (CEO) and Edwin Zhang, that builds agentic AI for IT operations teams. Its DevAI Network
+  Intelligence Engine reconciles data across fragmented IT tools of record (CMDB, vCenter, NetBox and
+  other infrastructure, network, compute, and security systems) into a single trustworthy operational
+  view, and its Network Intelligence Agent "Neo" streamlines IT planning, incident response, patch
+  management, and security and compliance workflows through a chat interface. DevAI reports deployment
+  at Fortune 50 enterprises and won Best-in-Show (Automation) at the AI Networking Summit 2025. The
+  company raised a $6M seed round led by Emergence Capital with Pear VC, Base10 Partners, and
+  Benchstrength. No public developer API, OpenAPI, SDK, or developer portal has been published to date;
+  this profile captures the company identity and the security posture of its public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/devai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://dev-ai.com/social-preview.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +32,52 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Developer Tools
+- IT Operations
+- Artificial Intelligence
+- AI Agents
+- Enterprise IT
+- Network Intelligence
+- Incident Response
+- Infrastructure Management
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/devai-domain-security.yml
+- type: Website
+  url: https://dev-ai.com/
+- type: Solution
+  url: https://dev-ai.com/solution
+- type: Blog
+  name: Newsroom
+  url: https://dev-ai.com/news/
+- type: Team
+  url: https://dev-ai.com/Team/
+- type: Careers
+  url: https://dev-ai.com/careers/
+- type: SignUp
+  name: Book a demo
+  url: https://dev-ai.com/join
+- type: Support
+  url: mailto:support@dev-ai.com
+- type: TermsOfService
+  url: https://dev-ai.com/TermsOfUse/
+- type: PrivacyPolicy
+  url: https://dev-ai.com/privacy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/devai
+- type: Twitter
+  url: https://twitter.com/DevAI
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
